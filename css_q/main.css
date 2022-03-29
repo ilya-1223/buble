@@ -28,6 +28,10 @@ a {
 }
 ul.nav_menu>li {
   display: inline-block;
+}
+  ul.nav_menu>li:hover {
+  filter: drop-shadow(2px 2px 2px #000);
+   -webkit-filter: drop-shadow(2px 2px 2px #000);
 
 }
 ul.nav_menu {
@@ -90,13 +94,34 @@ li {
   margin-left: 180px;
 
 }
-.Google {
-  width: 150px;
-  margin-top: 40px;
+img.img_button {
+  position: absolute;
+  top: 22%;
+  left: 12%;
 }
-.App {
-  width: 120px;
-  margin-bottom: 47px;
+a:first-of-type {
+  margin-right: 20px;
+}
+.button {
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background-color: #4a99d3;
+  border-radius: 5px;
+  display: inline-block;
+  position: relative;
+  margin-top: 50px;
+}
+.button:hover {
+  box-shadow: 3px 3px 10px 2px rgba(100, 100, 100, 0.5);
+  transition: 0.8s;
+}
+
+a.button:hover>img {
+  transition: all 0.8s ease;
+transform: rotateY(360deg);
+filter: drop-shadow(2px 2px 2px #000);
+ -webkit-filter: drop-shadow(2px 2px 2px #000);
 }
 .About {
   margin-top: 250px;
