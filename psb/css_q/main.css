@@ -1,0 +1,104 @@
+/html, body {
+  font-family: "roboto";
+}
+*{
+  outline: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'roboto';
+
+}
+a {
+  color: black;
+  letter-spacing: 1px;
+  font-family: 'roboto';
+}
+.navbar {
+  width: 80%;
+  height: 60px;
+  display: flex;
+  padding-left: 10%;
+  padding-right: 10%;
+  position: fixed;
+}
+ul.nav_menu>li {
+  display: inline-block;
+}
+ul.nav_menu {
+  margin-left: auto;
+  align-self: center;
+
+}
+.logo {
+  align-self: center;
+  font-size: 22px;
+  font-family: 'roboto';
+  color: blue;
+  font-weight: 500;
+}
+.menu {
+  margin-right: 40px;
+}
+.i_menu {
+  margin-right: 40px;
+}
+.title_bottom {
+  position: absolute;
+  width: 600px;
+  height: 384px;
+  margin-left: 130px;
+  margin-top: 170px;
+
+
+}
+.img_mobile {
+  position: relative;
+  width: 500px;
+  height: 634.78px;
+  left: 750px;
+  top: 70px;
+
+
+}
+h1 {
+  font-size: 50px;
+  margin-bottom: 30px;
+  line-height: 70px;
+}
+p {
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: normal;
+}
+li {
+  font-weight: 100;
+  font-size: 16px
+}
+.mobile_1 {
+  position: absolute;
+  margin-right: 60px;
+  margin-top: 75px;
+}
+.mobile_2 {
+  margin-left: 180px;
+
+}
+.Google {
+  width: 150px;
+  margin-top: 40px;
+}
+.App {
+  width: 120px;
+  margin-bottom: 47px;
+}
+@media screen and (max-width 425px) {
+.logo {
+  font-size: 50px;
+}
+a {
+  font-size: 30px;
+}
+
+}
